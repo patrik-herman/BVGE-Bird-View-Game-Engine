@@ -1,0 +1,35 @@
+/* 
+ * BVGE.css
+ * Styles for BVGE engine
+ */
+
+#bvge,
+#bvge #controls,
+#bvge #map,
+#bvge #map #entities,
+#bvge #map #blocks {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+}
+
+#bvge {
+	background: black;
+	z-index: 10000;
+}
+
+#bvge #controls {
+
+}
+
+#bvge #map {
+
+}
+
+#bvge #map #entities {
+
+}
+
+#bvge #map #blocks {
+
+}

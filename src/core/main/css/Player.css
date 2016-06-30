@@ -1,0 +1,24 @@
+#bvge #map #player {
+	position: absolute;
+	top: 50%; left: 50%;
+	width: 20px;
+	height: 20px;
+    border: 4px solid #03A9F4;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.65);
+	margin: -14px -14px;
+	z-index: 9999;
+}
+
+#bvge #map #player #coords {
+	color: #CCC;
+    font-size: 9px;
+    min-width: 80px;
+    position: relative;
+    top: -25px;
+    left: -25px;
+    padding: 0px 4px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #222;
+}
